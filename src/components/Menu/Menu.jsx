@@ -1,9 +1,10 @@
 import "./menu.css";
 import chevron from "./assets/chevron.svg";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
-    <div className="menu bg-white pt-4 pl-6 pb-10 pr-8">
+    <div className="menu bg-white pt-4 pl-6 pb-10 pr-8 hidden" id="menu">
       <div className="menu-item">
         <div className="flex justify-between items-center">
           <svg
@@ -23,12 +24,23 @@ const Menu = () => {
         <img src={chevron} alt="" />
       </div>
 
-      <div className="menu-item">Home <img src={chevron} alt="" /></div>
-      <div className="menu-item">Services <img src={chevron} alt="" /></div>
-      <div className="menu-item">Buy Cards <img src={chevron} alt="" /></div>
-      <div className="menu-item">About Us <img src={chevron} alt="" /></div>
-      <div className="menu-item">Contact <img src={chevron} alt="" /></div>
-
+      <Link to="/">
+        <div className="menu-item">
+          Home <img src={chevron} alt="" />
+        </div>
+      </Link>
+      <div className="menu-item">
+        Services <img src={chevron} alt="" />
+      </div>
+      <div className="menu-item">
+        Buy Cards <img src={chevron} alt="" />
+      </div>
+      <div className="menu-item">
+        About Us <img src={chevron} alt="" />
+      </div>
+      <div className="menu-item">
+        Contact <img src={chevron} alt="" />
+      </div>
     </div>
   );
 };

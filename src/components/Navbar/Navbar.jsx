@@ -1,20 +1,25 @@
+import Menu from "../Menu/Menu";
 import cartSvg from "./assets/Cart.svg";
 import menuSvg from "./assets/Menu.svg";
 const Navbar = () => {
   const handelOnClick = () => {
-    console.log("Menu");
+    const menu = document.querySelector("#menu");
+    menu.classList.toggle("hidden");
   };
   return (
-    <nav className="flex justify-between items-center">
-      <span>LOGO</span>{" "}
-      <div className="flex justify-center items-center">
-        {" "}
+    <>
+      <nav className="flex justify-between items-center relative ">
+        <span>LOGO</span>
         <div className="flex justify-center items-center">
-          <img src={cartSvg} className="mr-7" alt="" />
-          <img src={menuSvg} alt="" onClick={handelOnClick} />
-        </div>{" "}
-      </div>
-    </nav>
+          <div className="flex justify-center items-center">
+            <img src={cartSvg} className="mr-7" alt="" />
+              <img src={menuSvg} alt="" onClick={handelOnClick} />
+          </div>
+        </div>
+      </nav>
+
+      <Menu />
+    </>
   );
 };
 
