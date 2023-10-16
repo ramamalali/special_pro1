@@ -8,12 +8,12 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="flex justify-between items-center relative ">
+      <nav className="project-container flex justify-between items-center relative ">
         <span>LOGO</span>
         <div className="flex justify-center items-center">
           <div className="flex justify-center items-center">
             <img src={cartSvg} className="mr-7" alt="" />
-              <img src={menuSvg} alt="" onClick={handelOnClick} />
+            <img src={menuSvg} alt="" onClick={handelOnClick} />
           </div>
         </div>
       </nav>

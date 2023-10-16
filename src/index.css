@@ -27,8 +27,11 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: var(--primaray);
-  padding: 0 6.67%;
   padding-top: 24px;
   scroll-behavior: smooth;
   overflow-x: hidden;
+}
+
+.project-container {
+  padding: 0 6.67%;
 }
