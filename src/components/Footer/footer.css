@@ -1,0 +1,10 @@
+.footer {
+  background-color: var(--Dark-blue);
+  padding: 0 14px;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.email-background {
+  background-color: rgba(230, 222, 45, 0.86);
+}
