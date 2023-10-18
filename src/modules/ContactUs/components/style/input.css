@@ -1,0 +1,30 @@
+.div-input {
+    position: relative;
+
+}
+
+input {
+    width: 19.5rem;
+    height: 3.125rem;
+    border-radius: 0.5rem;
+    background: #FFF;
+    border: none;
+    padding:  0.94rem 0 0.94rem 1.37rem;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.30);
+    font-size: 1rem;
+    font-weight: 500;
+}
+textarea::placeholder{
+    padding:  0.94rem 0 0.94rem 1.37rem;
+    color: rgba(0, 0, 0, 0.30);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.icon {
+    position: absolute;
+    left: 17.56rem;
+    top: 1rem;
+}

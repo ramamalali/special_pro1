@@ -1,0 +1,34 @@
+.icons-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    gap: 1rem;
+}
+
+.icons-social {
+    display: flex;
+    gap: 0.1rem;
+    width: 13.625rem;
+    height: 2.18613rem;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.community {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+.child-icon .logo {
+
+    color: white;
+}
+
+@media (max-width: 990px) {
+    .icons-div {
+        padding-top: 2.62rem;
+    }
+}
