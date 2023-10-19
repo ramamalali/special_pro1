@@ -1,7 +1,9 @@
 import contactImg from "../assets/images/contact.svg"
 
-export const detils = 
+const detils = 
     {
         title: "Contact us",
         image: contactImg
     }
+
+export default detils;

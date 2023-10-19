@@ -3,6 +3,7 @@ import Home from "../modules/Home/Home";
 import Login from "../modules/utlis/login/Login";
 import Layout from "./Layout";
 import Aboutus from "../modules/AboutUs/pages/Aboutus";
+import Contactus from "../modules/ContactUs/pages/Contactus";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
         path: "about",
         element: <Aboutus />,
       },
+      {
+        path: "contact-us",
+        element: <Contactus/>
+      }
     ],
   },
 ]);
