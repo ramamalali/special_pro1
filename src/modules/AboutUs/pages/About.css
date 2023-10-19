@@ -1,0 +1,7 @@
+
+@media screen and (max-width:600px) {
+    .rm_about_page{
+        width: 100%;
+        background-color: var(--primaray);
+    }   
+}

@@ -1,0 +1,62 @@
+
+@media screen and (max-width:600px) {
+    .rm_cards_container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+.rm_about_cards{
+    height: 17.6rem;
+    flex-shrink: 0;
+    display: flex;
+    border-radius: 2.4rem 0rem 0rem 2.4rem;
+    background-color: var(--secondary);
+    justify-content: space-between;
+    align-items: self-start;
+    gap: 19px;
+    width: 31.3rem;
+}
+.rm_about_num{
+    margin: auto;
+    font-size: 2rem;
+    background: var(--white3);
+    width: 24px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: var( --Dark-blue);
+} 
+.rm_about_card{
+ color: var(--white);
+text-align: center;
+font-family: Montserrat;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 1.6rem;
+padding-top: 3.4rem;
+}
+.rm_about_card_h2{
+text-align: start;
+font-size: 2.5rem;
+padding-bottom: 0.9rem;
+}
+.rm_about_card_p{
+    text-align: start;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+  
+}
+.cardcolors{
+    background-color: var( --white2); 
+    border-radius: 0rem 2.4rem 2.4rem 0rem;
+}
+.fontcolor{
+    color: var(--secondary);
+}
+}
