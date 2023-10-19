@@ -5,6 +5,8 @@ const Navbar = () => {
   const handelOnClick = () => {
     const menu = document.querySelector("#menu");
     menu.classList.toggle("hidden");
+    const body = document.getElementsByTagName("body");
+    body[0].classList.toggle("show-sidebar")
   };
   return (
     <>

@@ -35,3 +35,8 @@ body {
 .project-container {
   padding: 0 6.67%;
 }
+
+.show-sidebar {
+  opacity: 0.8;
+  background: rgba(179, 172, 40, 0.9);
+}

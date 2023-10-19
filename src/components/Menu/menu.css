@@ -1,9 +1,11 @@
 .menu {
-    width: 100%;
+    width: 88%;
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 10px;
     z-index: 1;
+    left: 6%;
+    opacity: 0.97;
 }
 .menu-item {
   display: flex;

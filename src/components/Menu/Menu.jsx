@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
-    <div className="menu bg-white pt-4 pl-6 pb-10 pr-8 hidden" id="menu">
+    <div className="menu bg-white pt-4 pl-6 pb-10 pr-8 hidden mx-6 absolute" id="menu">
       <div className="menu-item">
         <div className="flex justify-between items-center">
           <svg
