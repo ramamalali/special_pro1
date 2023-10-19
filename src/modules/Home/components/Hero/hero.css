@@ -1,0 +1,11 @@
+.hero__heading {
+  color: var(--secondary);
+}
+
+.hero__heading-focus {
+  color: var(--green);
+}
+
+.left-side {
+    left: 85%;
+}

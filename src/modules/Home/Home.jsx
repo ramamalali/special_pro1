@@ -5,11 +5,13 @@ import starbucks from "./assets/imgs/starbucks.png";
 import xbox from "./assets/imgs/xbox.svg";
 import ebay from "./assets/imgs/ebay.png";
 import addidas from "./assets/imgs/addidas.svg";
+import Hero from "./components/Hero/Hero";
 
 const Home = () => {
   return (
     <>
       <SearchBar />
+      <Hero/>
       <div className="px-6">
         <h2 className="cards__section__heading">Featured Cards</h2>
         <div className="flex justify-between items-center mb-3">
