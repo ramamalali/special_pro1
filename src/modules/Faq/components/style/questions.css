@@ -24,11 +24,13 @@
     font-size: 0.875rem;
     font-weight: 600;
 }
+
 .new-title-faq{
     font-size: 0.875rem;
     font-weight: 600;
     color: white;
 }
+
 .desc-faq {
     display: none;
 }
@@ -39,6 +41,7 @@
     font-weight: 700;
     padding-top: 0.3rem;
 }
+
 .none{
     display: none;
 }
