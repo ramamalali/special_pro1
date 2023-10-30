@@ -32,9 +32,9 @@ body {
   overflow-x: hidden;
 }
 
-.project-container {
+/* .project-container {
   padding: 0 6.67%;
-}
+} */
 
 .show-sidebar {
   opacity: 0.8;

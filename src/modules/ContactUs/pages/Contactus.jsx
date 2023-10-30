@@ -7,7 +7,7 @@ import Title from '../../../components/title/Title'
 import detils from '../const/titleDetils'
 function Contactus() {
   return (
-    <div className='contact'>
+    <div className='contact pb-3'>
         <OvalShape />
         <Title title={detils.title} img={detils.images} />
         <Form />

@@ -44,7 +44,7 @@ const Menu = () => {
           About Us <img src={chevron} alt="" />
         </div>
       </Link>
-      <Link to="contact">
+      <Link to="contact-us">
         <div className="menu-item">
           Contact <img src={chevron} alt="" />
         </div>

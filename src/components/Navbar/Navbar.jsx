@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="project-container flex justify-between items-center relative ">
+      <nav className="px-6 pb-3 flex justify-between items-center">
         <span>LOGO</span>
         <div className="flex justify-center items-center">
           <div className="flex justify-center items-center">
