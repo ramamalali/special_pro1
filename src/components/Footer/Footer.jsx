@@ -7,7 +7,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <>
-      <div className="footer mt-3">
+      <div className="footer pb-3">
         <div className="flex justify-between items-start pb-10">
           <div>
             <p className="font-semibold mt-2">About Us</p>

@@ -5,7 +5,7 @@ function Input({icon , placeholder , type}) {
   return (
     <div className='div-input'>
         <img className='icon' src={icon}/>
-        <input className='input outline-none' type={type}  placeholder={placeholder}/>
+        <input className='input outline-none input-form' type={type}  placeholder={placeholder}/>
     </div>
   )
 }

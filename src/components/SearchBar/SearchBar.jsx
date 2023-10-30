@@ -2,7 +2,7 @@ import "./searchbar.css"
 const SearchBar = () => {
   return (
     <div className="flex justify-between items-center relative m-6 search-bar">
-      <input type="text" placeholder="Search" className="bg-transparent outline-0 text-white placeholder:text-white" />{" "}
+      <input type="text" placeholder="Search" className="bg-transparent pl-0 py-0 outline-0 text-white placeholder:text-white" />{" "}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"

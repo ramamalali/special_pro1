@@ -4,6 +4,7 @@ import Login from "../modules/utlis/login/Login";
 import Layout from "./Layout";
 import Aboutus from "../modules/AboutUs/pages/Aboutus";
 import Contactus from "../modules/ContactUs/pages/Contactus";
+import Faq from "../modules/Faq/pages/Faq";
 import BuyCard from "../modules/BuyCard/BuyCard";
 
 const router = createBrowserRouter([
@@ -28,7 +29,11 @@ const router = createBrowserRouter([
         element: <Contactus/>
       },
       {
-        path: "buy-card",
+        path:"faq",
+        element: <Faq/>
+      },
+      {
+        path:"buy-card",
         element: <BuyCard/>
       }
     ],

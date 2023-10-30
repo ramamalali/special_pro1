@@ -32,7 +32,7 @@ function Form() {
                     <Input type={ele.type} placeholder={ele.placeholder} icon={ele.img} />
                 ])
             }
-            <textarea className='massege' placeholder='Your Message' />
+            <textarea className='massege textarea-form' placeholder='Your Message' />
 
             <button className='submit' type='submit'>Send <img className='send-img' src={sendImg} /></button>
 
