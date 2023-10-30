@@ -6,6 +6,7 @@ import Aboutus from "../modules/AboutUs/pages/Aboutus";
 import Contactus from "../modules/ContactUs/pages/Contactus";
 import Faq from "../modules/Faq/pages/Faq";
 import BuyCard from "../modules/BuyCard/BuyCard";
+import Signup from "../modules/utlis/signup/Signup";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "sign-in",
         element: <Login />,
+      },
+      {
+        path: "sign-up",
+        element: <Signup/>
       },
       {
         path: "about",
