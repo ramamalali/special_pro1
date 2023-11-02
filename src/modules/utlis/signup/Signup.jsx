@@ -2,7 +2,7 @@ import React from "react";
 import "./../signup/signup.css";
 import { useState } from "react";
 const Signup = () => {
-  const [inputVall, setinputVall] = useState([]);
+  const [inputVall, setinputVall] = useState();
   const [passwordd, setpasswordd] = useState(false);
   const handlechangee = (e) => {
     const valuee = e.target.value;

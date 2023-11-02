@@ -1,14 +1,25 @@
 .rm_login_space2 {
-  width: 31.2rem !important;
-  height: 61.2rem !important;
+  width: 31.2rem ;
+  height: 61.2rem ;
   flex-shrink: 0;
   border-radius: 1rem;
   background: #fff;
   margin: 0rem auto;
+  padding: 2rem;
 }
+
 .rm_login_text2 {
   color: rgba(0, 0, 0, 0.86) !important;
   font-size: 1.8rem !important;
   font-weight: 500;
   margin-left: 2.4rem;
+}
+
+@media (max-width: 990px) {
+  .rm_login_space2 {
+    width: 19.5rem;
+    height: 32rem;
+    padding: 1.5rem;
+  }
+
 }

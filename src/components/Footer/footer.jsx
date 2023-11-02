@@ -2,12 +2,13 @@ import ebay from "./assets/ebay.png";
 import paypal from "./assets/masterCard.png";
 import visa from "./assets/visa.png";
 import masterCard from "./assets/masterCard.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./footer.css";
 const Footer = () => {
+  const navigate = useNavigate()
   return (
     <>
-      <div className="footer mt-3">
+      <div className="footer">
         <div className="flex justify-between items-start pb-10">
           <div>
             <p className="font-semibold mt-2">About Us</p>
@@ -26,7 +27,7 @@ const Footer = () => {
               <Link to="">
                 <li className="mt-2 text-sm">Home</li>
               </Link>
-              <Link to="">
+              <Link to="faq">
                 <li className="mt-2 text-sm">Support</li>
               </Link>
               <Link to="">
