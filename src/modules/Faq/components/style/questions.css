@@ -4,7 +4,7 @@
 
 .questions {
     width: 19.5rem;
-    height: 4.5rem;
+    height: fit-content;
     border-radius: 0.5rem;
     background: #FFF;
     padding: 1.38rem;
@@ -24,13 +24,11 @@
     font-size: 0.875rem;
     font-weight: 600;
 }
-
 .new-title-faq{
     font-size: 0.875rem;
     font-weight: 600;
     color: white;
 }
-
 .desc-faq {
     display: none;
 }
@@ -41,7 +39,6 @@
     font-weight: 700;
     padding-top: 0.3rem;
 }
-
 .none{
     display: none;
 }

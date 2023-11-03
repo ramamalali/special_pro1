@@ -1,14 +1,17 @@
 .div-questions{
-
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    justify-content: center;
     position: absolute;
-    left: 36.5%;
+    left: 36%;
     top: 8.44rem;
-
+    overflow-y: scroll;
 }
 
+@media (max-width: 990px){
+    .div-questions{
+        left: 5%;
+    }
+}
 
 
