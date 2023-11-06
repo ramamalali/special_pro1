@@ -2,7 +2,7 @@ import React from "react";
 import "./../signup/signup.css";
 import { useState } from "react";
 const Signup = () => {
-  const [inputVall, setinputVall] = useState([]);
+  const [inputVall, setinputVall] = useState();
   const [passwordd, setpasswordd] = useState(false);
   const handlechangee = (e) => {
     const valuee = e.target.value;
@@ -12,7 +12,7 @@ const Signup = () => {
   };
   return (
     <div>
-      <div className="rm_login">
+      <div className="rm_login pb-3">
         <div className="rm_login_space2">
           <div className="rm_numbers">
             <p className="rm_number1">1</p>

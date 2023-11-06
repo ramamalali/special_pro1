@@ -1,9 +1,10 @@
 import React from "react";
 import "../login/login.css";
 import { useState } from "react";
-import img from "../../../assets/img/Rectangle 12.png";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+
   const [inputVal, setinputVal] = useState([]);
   const [password, setpassword] = useState(false);
   const handlechange = (e) => {
@@ -12,8 +13,9 @@ const Login = () => {
     const filled = value.trim().length > 0;
     setpassword(filled);
   };
+
   return (
-    <div className="rm_login">
+    <div className="rm_login pb-3">
       <div className="rm_login_space">
         <div className="rm_numbers">
           <p className="rm_number1">1</p>
@@ -50,9 +52,9 @@ const Login = () => {
             </div>
           </div>
 
-          <div class="mt-3">
+          <div class="mt-3 rm-btns">
             <button type="submit" className="rm_login_submit">
-              submit
+              Login
             </button>
           </div>
         </form>
